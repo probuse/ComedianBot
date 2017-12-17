@@ -11,7 +11,7 @@ public class JokeBot extends Bot {
     public static ArrayList<Joke> jokesIKnow = null;
 
     public JokeBot(ArrayList<Joke> jokesIKnow){
-        jokesIKnow = jokesIKnow;
+        this.jokesIKnow = jokesIKnow;
     }
 
     public void tellJoke() {
