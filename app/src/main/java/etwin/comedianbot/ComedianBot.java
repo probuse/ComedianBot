@@ -1,14 +1,12 @@
 package etwin.comedianbot;
 
-import java.util.ArrayList;
-
 /**
  * Created by probuse on 12/17/17.
  */
 
 public class ComedianBot extends JokeBot {
 
-    public ComedianBot(ArrayList<Joke> jokesIKnow) {
+    public ComedianBot() {
         super(null);
         jokesIKnow = JokeWriter.getJokeListTwo();
 

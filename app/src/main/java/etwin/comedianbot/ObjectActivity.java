@@ -15,5 +15,9 @@ public class ObjectActivity extends Activity {
         ArrayList<Joke> somejokes = JokeWriter.getJokeListOne();
         JokeBot jokeBot = new JokeBot(somejokes);
         jokeBot.tellJoke();
+        jokeBot.jokesIKnow = JokeWriter.getJokeListTwo();
+
+        ComedianBot drHilarious = new ComedianBot();
+        drHilarious.performShow();
     }
 }
