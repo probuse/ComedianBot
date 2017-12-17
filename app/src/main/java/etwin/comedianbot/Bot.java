@@ -33,7 +33,7 @@ public class Bot {
         this.name = name;
     }
 
-    public void talk(String whatToSay) {
+    protected void talk(String whatToSay) {
         Log.e(getName(), whatToSay);
     }
 }
