@@ -6,8 +6,9 @@ package etwin.comedianbot;
 
 public class ComedianBot extends JokeBot {
 
-    public ComedianBot() {
+    public ComedianBot(String name) {
         super(null);
+        setName(name);
         jokesIKnow = JokeWriter.getJokeListTwo();
 
     }

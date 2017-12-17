@@ -17,7 +17,7 @@ public class ObjectActivity extends Activity {
         jokeBot.tellJoke();
         jokeBot.jokesIKnow = JokeWriter.getJokeListTwo();
 
-        ComedianBot drHilarious = new ComedianBot();
+        ComedianBot drHilarious = new ComedianBot("DrHilarious");
         drHilarious.performShow();
     }
 }
