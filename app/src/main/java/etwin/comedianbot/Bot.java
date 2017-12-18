@@ -1,12 +1,16 @@
 package etwin.comedianbot;
 
 import android.util.Log;
+import android.widget.TextView;
 
 /**
  * Created by probuse on 12/17/17.
  */
 
 public class Bot {
+
+    private TextView textView;
+
     public final static String creatorName = "etwin";
     // final - means that this attribute is immutable...it can not be
     // changed....it is final....you can't even override it if it is

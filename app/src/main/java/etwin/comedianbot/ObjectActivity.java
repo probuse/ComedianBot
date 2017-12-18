@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import java.util.ArrayList;
 
-public class ObjectActivity extends Activity {
+public class ObjectActivity extends Activity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,3 +21,5 @@ public class ObjectActivity extends Activity {
         drHilarious.performShow();
     }
 }
+
+
